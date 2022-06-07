@@ -94,7 +94,7 @@ function draw(){
     
     ctx.drawImage(bird,bX,bY);
     
-    bY += gravity;
+    bY += gravity; 
     
     ctx.fillStyle = "#000";
     ctx.font = "20px Verdana";
